@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<nav class="navMenu">
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="resume.html">Résumé</a></li>
+        <li><a href="cover-letter.html">Cover Letter</a></li>
+        <li><a href="career-goals.html">Career Goals</a></li>
+    </ul>
+
+</nav>
+<head>
+    <meta charset="UTF-8">
+    <title>John Doe Home Page</title>
+    <link rel="stylesheet" href="/style/master.css">
+</head>
+<body>
+<header>
+    <h1 id="page-title">John Doe</h1>
+    <p id="page-title"><em>Web Developer | Software Engineer | IT Consultant</em></p>
+</header>
+<footer>
+    <div id="date-container"></div>
+
+    <script>
+
+        const dateContainer = document.getElementById("date-container");
+        const currentDate = new Date();
+        dateContainer.textContent = `Current Date: ${currentDate.toDateString()}`;
+
+
+        console.log("Resume page loaded successfully.");
+    </script>
+    <p>&copy; 2025 John Doe | This document is a example for school.</p>
+</footer>
+</body>
+</html>
