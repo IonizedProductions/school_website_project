@@ -16,8 +16,8 @@
 </head>
 <body>
 <header>
-    <h1>Cover Letter</h1>
-    <p><em>John Doe – Web Developer</em></p>
+    <h1 id="page-title">Cover Letter</h1>
+    <p id="page-title"><em>John Doe – Web Developer</em></p>
 </header>
 
 
@@ -30,7 +30,7 @@
                 Code City, ST 12345<br>
                 johndoe@email.com | (555) 555-1234</p>
 
-            <p>July 7, 2025</p>
+            <p>July 8, 2025</p>
 
             <p><strong>Hiring Manager</strong><br>
                 Innovative Web Solutions<br>
@@ -54,8 +54,23 @@
         </section>
     </article>
 </main>
-
+<div>
+    <div class="wave"></div>
+    <div class="wave"></div>
+    <div class="wave"></div>
+</div>
 <footer>
+    <div id="date-container"></div>
+
+    <script>
+
+        const dateContainer = document.getElementById("date-container");
+        const currentDate = new Date();
+        dateContainer.textContent = `Current Date: ${currentDate.toDateString()}`;
+
+
+        console.log("Resume page loaded successfully.");
+    </script>
     <p>&copy; 2025 John Doe | This document is a example for school.</p>
 </footer>
 </body>
