@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<nav class="navMenu">
+    <ul>
+        <li><a href="resume.html">Résumé</a></li>
+        <li><a href="cover-letter.html">Cover Letter</a></li>
+        <li><a href="career-goals.html">Career Goals</a></li>
+    </ul>
+
+</nav>
+<head>
+    <meta charset="UTF-8">
+    <title>John Doe - Resume</title>
+    <link rel="stylesheet" href="/style/master.css">
+</head>
+<body>
+<header>
+    <h1>John Doe</h1>
+    <p><em>Web Developer | Software Engineer | IT Consultant</em></p>
+</header>
+
+
+
+<main>
+    <section>
+        <h2>Professional Summary</h2>
+        <p>Experienced <strong>web developer</strong> with a strong foundation in front-end technologies and a passion for creating interactive user experiences. <span>Seeking full-time opportunities in software development.</span></p>
+        <hr>
+    </section>
+
+    <section>
+        <h2>Technical Skills</h2>
+        <ul>
+            <li>HTML, CSS, JavaScript</li>
+            <li>React, Node.js</li>
+            <li>Python, SQL</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Work Experience</h2>
+        <article>
+            <h3>Front-End Developer - Tech Solutions Inc.</h3>
+            <p><em>Jan 2022 - Present</em></p>
+            <p>Led the redesign of a major e-commerce website, improving performance by 30% and customer engagement by 20%.</p>
+        </article>
+        <article>
+            <h3>Web Developer Intern - WebWorks</h3>
+            <p><em>May 2021 - Dec 2021</em></p>
+            <p>Collaborated on multiple client websites using HTML, CSS, and JavaScript, contributing to accessible and responsive designs.</p>
+        </article>
+    </section>
+
+    <section>
+        <h2>Education</h2>
+        <table>
+            <caption>Academic Background</caption>
+            <tr>
+                <th>Institution</th>
+                <th>Degree</th>
+                <th>Major</th>
+                <th>Year</th>
+            </tr>
+            <tr>
+                <td>WGU</td>
+                <td>Bachelor's</td>
+                <td>Computer Networking and Security</td>
+                <td>2025</td>
+            </tr>
+            <tr>
+                <td>ABC College</td>
+                <td>Associate</td>
+                <td>Information Technology</td>
+                <td>2022</td>
+            </tr>
+        </table>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2025 John Doe</p>
+</footer>
+
+<div id="date-container"></div>
+
+<script>
+    // Populate date
+    const dateContainer = document.getElementById("date-container");
+    const currentDate = new Date();
+    dateContainer.textContent = `Current Date: ${currentDate.toDateString()}`;
+
+    // Console log message
+    console.log("Resume page loaded successfully.");
+</script>
+<footer>
+    <p>&copy; 2025 John Doe | This document is a example for school.</p>
+</footer>
+</body>
+</html>

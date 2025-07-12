@@ -1,0 +1,42 @@
+body{
+    background-color: #ffffff;
+    color: #031e1a;
+}
+
+h1{
+    text-align: center;
+}
+
+nav ul{
+    list-style-type: none;
+    background-color: deepskyblue;
+    padding: 0;
+    margin: 0;
+    display: inline-flex;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+
+nav a:hover{
+    background-color: #000080;
+}
+
+title{
+    text-align: center;
+    color: #000080;
+    font-size: 50px;
+
+}
+
+section ul{
+    display: inline-block;
+    border: 1px solid black;
+    word-wrap: normal;
+    list-style-position: outside;
+    list-style-type: disc;
+}
